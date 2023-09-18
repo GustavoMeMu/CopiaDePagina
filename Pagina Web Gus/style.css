@@ -1,0 +1,694 @@
+body {
+    background-color: #2c2c32;
+    padding: 0px 0px 50px;
+}
+
+.logo {
+    position: absolute;
+    left: 140px;
+    top: 10px;
+}
+
+.logo header {
+    color: white;
+    font-size: 20px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.logo header:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    height: auto;
+    width: 30px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.lista1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -85px;
+    left: 150px;
+    padding: 50px;
+}
+
+.lista1 li {
+    margin-right: 23px;
+    list-style: none;
+}
+
+.lista1 a {
+    text-decoration: none;
+    color: #a8a8a8;
+    font-size: 14.5px;
+    font-weight: 250;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.icono2 {
+    position: absolute;
+    right: -230px;
+    top: 33px;
+    transform: rotate(90deg);
+}
+
+.icono2 i {
+    margin-right: 50px;
+    font-size: 17px;
+    color: #a8a8a8;
+}
+
+.icono2 i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.descarga {
+    padding: 15px 0px 10px 48px;
+    width: 100px;
+    height: 27px;
+    position: relative;
+    top: -188px;
+    left: 760px;
+    background-color: #0066b8;
+}
+
+.descarga a {
+    color: white;
+    font-weight: 600;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    text-decoration: none;
+}
+
+.logo3 {
+    position: absolute;
+    right: -310px;
+    top: 6px;
+}
+
+.logo3 i {
+    margin-right: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.descarga:hover {
+    background-color: #045698;
+    cursor: pointer;
+}
+
+.version {
+    position: relative;
+    top: 45px;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    background-color: #25252b;
+}
+
+.version {
+    position: absolute;
+}
+
+.version a {
+    position: absolute;
+    top: 20px;
+    left: 291px;
+    font-size: 15px;
+    font-weight: 250;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0098ff;
+}
+
+.version a:hover {
+    text-decoration: none;
+}
+
+.version h4 {
+    position: absolute;
+    left: 380px;
+    font-size: 15px;
+    font-weight: 250;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #a8a8a8;
+}
+
+.texto1 {
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.texto1 h1 {
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: 100;
+}
+
+.texto2 {
+    position: relative;
+    top: 56px;
+    left: 140px;
+    font-weight: bold;
+}
+
+.texto2 h1 {
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.texto3 {
+    position: relative;
+    top: 30px;
+    left: 133px;
+}
+
+.texto3 h5 {
+    color: #a8a8a8;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.texto3 h4 {
+    position: relative;
+    top: -22px;
+    left: 68px;
+}
+
+.texto3 h4 {
+    color: #a8a8a8;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: -190px;
+    margin-bottom: 30px;
+    left: 425px;
+}
+
+.img1 img {
+    max-width: 617px;
+    height: auto;
+}
+
+.descarga2 {
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+
+.btn2 {
+    padding: 20px 15px 25px;
+    background-color: #0066b8;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.texto4 {
+    position: relative;
+    top: 10px;
+    left: 190px;
+}
+
+.texto4 h5 {
+    color: white;
+    font-weight: 300;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.logo4 {
+    position: relative;
+    top: -51px;
+    left: 325px;
+}
+
+.logo4 i {
+    background-color: #0066b8;
+    color: white;
+    padding: 22px;
+    font-size: 20px;
+    height: 6.5rem;
+    width: 53px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.btn2:hover {
+    background-color: #045698;
+    cursor: pointer;
+}
+
+.logo4 i:hover {
+    background-color: #045698;
+    cursor: pointer;
+}
+
+.texto4:hover {
+    cursor: pointer;
+}
+
+.texto5 {
+    position: relative;
+    top: -10px;
+    left: 118px;
+}
+
+.texto5 a {
+    font-weight: 250;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0071bc;
+    background-color: #25252b;
+    border-radius: 8px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 12px;
+}
+
+.texto6 {
+    position: relative;
+    top: -15px;
+    left: 160px;
+}
+
+.texto6 h6 {
+    color: #a8a8a8;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.texto7 {
+    position: relative;
+    top: -42px;
+    left: 175px;
+}
+
+.texto7 a {
+    font-size: 11px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0071bc;
+}
+
+.margin {
+    position: absolute;
+    top: 600px;
+    padding: 10px;
+    padding-left: 1030px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    background-color: white;
+}
+
+.block {
+    position: absolute;
+    left: 10px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.bloque {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+.bloque i {
+    font-size: 48px;
+    color: #242424;
+}
+
+.bloque p {
+    margin: 0;
+    color: #242424;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
+}
+
+.bloque:hover {
+    background-color: #e7e2e2;
+}
+
+.bloque i:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.bloque p:hover {
+    cursor: pointer;
+}
+
+.logo6 {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+
+.logo6 i {
+    color: gray;
+    font-size: 35px;
+}
+
+.logo7 {
+    position: absolute;
+    top: 170px;
+    right: 120px;
+}
+
+.logo7 i {
+    color: gray;
+    font-size: 35px;
+}
+
+.footer {
+    position: absolute;
+    top: 810px;
+    padding: 10px;
+    padding-left: 777px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    background-color: rgb(239, 239, 239);
+}
+
+.bloque1 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+.bloque1 .p2 {
+    position: relative;
+    left: 10px;
+}
+
+.p1 {
+    font-weight: 600;
+    color: #242424;
+    font-size: 20px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
+}
+
+.p2 {
+    color: #242424;
+    font-size: 17px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.bloque1 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: -38.5px;
+    left: 70px;
+}
+
+.bloque1 a:hover {
+    text-decoration: underline;
+}
+
+.p3 {
+    color: #242424;
+    font-size: 17px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: -77.9px;
+    left: 169px;
+}
+
+.p4 {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+
+.bloque2 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: -36.5px;
+    right: 111px;
+}
+
+.bloque2 a:hover {
+    text-decoration: underline;
+}
+
+.p6 {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: -82.5px;
+    right: 6px;
+}
+
+.p7 {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: -106px;
+    right: 40px;
+}
+
+.p8 {
+    color: #242424;
+    font-size: 16px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    position: relative;
+    top: -115px;
+    right: 134px;
+}
+
+.titulof {
+    position: relative;
+    top: 480px;
+    left: 450px;
+}
+
+.titulof h5 {
+    color: #333;
+    font-weight: 650;
+    font-size: 14px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.textof1 {
+    position: relative;
+    top: 480px;
+    left: 300px;
+}
+
+.textof1 h6 {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link1f {
+    position: relative;
+    top: 434.8px;
+    left: 640px;
+}
+
+.link1f a {
+    color: #0071bc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link1f a:hover {
+    text-decoration: underline;
+    color: #0071bc;
+}
+
+.textof12 {
+    position: relative;
+    top: 389.5px;
+    left: 712px;
+}
+
+.textof12 h6 {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link2f1 {
+    position: relative;
+    top: 343.5px;
+    left: 735px;
+}
+
+.link2f1 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link2f1 a:hover {
+    text-decoration: underline;
+    color: #0071bc;
+}
+
+.link3f2 {
+    position: relative;
+    top: 360px;
+    left: 290px;
+}
+
+.link3f2 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link3f2 a:hover {
+    text-decoration: underline;
+    color: #0071bc;
+}
+
+.textof21 {
+    position: relative;
+    top: 315px;
+    left: 349px;
+}
+
+.textof21 h6 {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.textof31 {
+    position: relative;
+    top: 305px;
+    left: 310px;
+}
+
+.textof31 h6 {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link1f3 {
+    position: relative;
+    top: 259.5px;
+    left: 676px;
+}
+
+.link1f3 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link1f3 a:hover {
+    text-decoration: underline;
+    color: #0071bc;
+}
+
+.link1f4 {
+    position: relative;
+    top: 270px;
+    left: 320px;
+}
+
+.link1f4 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link1f4 a:hover {
+    text-decoration: underline;
+    color: #0071bc;
+}
+
+.textof41 {
+    position: relative;
+    top: 225px;
+    left: 378px;
+}
+
+.textof41 h6 {
+    color: #333;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link2f4 {
+    position: relative;
+    top: 179.5px;
+    left: 719px;
+}
+
+.link2f4 a {
+    color: #0071bc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.link2f4 a:hover {
+    text-decoration: underline;
+    color: #0071bc;
+}
